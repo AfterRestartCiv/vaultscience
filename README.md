@@ -4,4 +4,4 @@ AfterRestart presents, a newfriends guide to all things Citadel, Prison Pearl, J
 
 Protect yourself from evildoers with massive obsidian structures.
 
-![obsidian](https://github.com/mrzsec/vaultscience/assets/113364978/17c83dc4-a16c-4feb-94b8-b74dc9ec05d0)
+![you shouldnt be seeing this..](https://github.com/AfterRestartCiv/vaultscience/obsidian.png?raw=true)

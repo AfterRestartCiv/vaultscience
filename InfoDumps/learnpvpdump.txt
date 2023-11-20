@@ -1,0 +1,72 @@
+docker — 11/10/2023 10:45 AM
+Learning Civ Combat
+Civ combat is pot PvP with a 1.8 config. There is a cps limit of 9 letting you click comfortably and focus more on aiming and timing for crits and strafing.
+[10:46 AM]
+https://m.youtube.com/watch?v=Na47t8yN9jY****
+YouTube
+Pirater
+Civ PvP Tutorial #1 - Movements
+
+[10:49 AM]
+In most scenarios you will not experience combat on Civ the same way as a practice server. There’s minimal head to head combat and combat on Civ is largely dependent on advantages such as your position on the map. (Are you close to an ally vault or city to kite to?) and can take place anywhere from bedrock to the height limit on a skybridge. In order to excel and be able to adapt to rapidly changing scenarios, you need to focus on some basic skills such as not quick dropping, aim and teamwork.
+
+docker — 11/10/2023 10:54 AM
+One of the best ways to practice all aspects of Civ combat even including the rapidly changing circumstances, is to practice on Bunkies or a server like CitadelPvP which shares all the same plugins as a live Civ server but with a primary objective of PvP.
+[10:55 AM]
+https://discord.gg/P5tqupa92
+YOU'VE BEEN INVITED TO JOIN A SERVER
+CitadelPVP
+53 Online
+144 Members
+
+Joined
+[10:59 AM]
+In Civ we rank peoples relative skill levels with a tiering system with T1 being the highest. 
+Most people after sufficient practice will fall into the T3 area and in order to advance further you will need to gain a lot of knowledge on Civ style combat and also further develop techniques. Most T1-2s have years of experience. I began Civ pvp when it first launched over a year ago, I went from getting 6 potted by K0mmi and being a quickdrop T5 to a T2 that 20 pots K0mmi through continous practice. (edited)
+November 13, 2023
+
+docker — 11/13/2023 6:59 PM
+The skill ceiling in Civ PvP is not as high as other methods of PvP like Loka or Stoneworks, however there is a clear difference between the skills of players throughout tiers.
+
+T2 (me) fighting a T4 (Sdorr):
+https://medal.tv/games/minecraft/clips/1lF43p8HK8fuAJ/eQTghJPW19tb?invite=cr-MSxxZnosMTc5MTcyOTk5LA
+
+T2 (me) fighting a T1 (T0mmyShelby0): 
+https://medal.tv/games/minecraft/clips/1lEoOD7JCec7ln/55QpbvzfI1LB?invite=cr-MSxzU3UsMTc5MTcyOTk5LA
+Notice how even though I win the fight, it's only through a quickdrop. He was still beating me by 6 pots, and I was struggling to keep up. Lots of higher tier players output crazy amounts of DPS that lower skill players simply cannot counter or pot to keep up with. However this fight proves that all Civ fights are situational, and this fight if it took place on live it could've had all sorts of outcomes based on what I had at that moment, and other factors. (edited)
+Medal - ⭐️ Clip up to 4K 240 fps for free!
+dockerimage
+Sdorr - Clipped with Medal.tv
+Medal - ⭐️ Clip up to 4K 240 fps for free!
+dockerimage
+t0mmyshelby0 - Clipped with Medal.tv
+[7:02 PM]
+Civ Combat Technique #1: Blocking Up
+There are many different techniques that people use in varying areas of the map, such as blocking up a players possible movement by spamming blocks. This works well in tight enclosed spaces like a vault bastioned city or especially bedrock.
+https://medal.tv/games/minecraft/clips/1jQ1LG3tIvlUqR/bDId3ZF3RfDx?invite=cr-MSxIcDEsMTc5MTcyOTk5LA 
+In this video you can see I use obsidian blocks to prevent the player from escaping. (edited)
+Medal - ⭐️ Clip up to 4K 240 fps for free!
+dockerimage
+soggyhobo - Clipped with Medal.tv
+[7:05 PM]
+Civ Combat Technique #2: Enclosed Space Spam Crit
+This is an essential skill when fighting underground. You have to be aware of multiple factors during this, such as your own health, the other persons health, the other persons teammates, attempting to escape, trying to blockup to prevent escaping, trying to steal the others pot, and trying to put yourself at a more advantageous postition. 
+https://medal.tv/games/minecraft/clips/18lPoJuouwtvMp/bhj44te90y1P?invite=cr-MSw3NFUsMTc5MTcyOTk5LA
+Medal - ⭐️ Clip up to 4K 240 fps for free!
+dockerimage
+K0mmi - Clipped with Medal.tv
+
+docker — 11/13/2023 7:09 PM
+Civ Combat Technique #3: KB Usage and Citadel Usage
+Using KB is an essential teamwork skill that can be even more useful when combined with Citadel reinforced blocks. In this video you can see me and another player working together to KB an enemy player into a reinforced room. Because it's reinforced on only our groups, the other cannot just simply open the door and is stuck there cutting them off from teammates, and other help, resulting in their death. You can use KB like this by knocking people into traps and hitting them away from the direction they're trying to go.
+https://medal.tv/games/minecraft/clips/17ZIqZ-YTULiSa/EdGFBAuUzlye?invite=cr-MSxOemYsMTc5MTcyOTk5LA (edited)
+Medal - ⭐️ Clip up to 4K 240 fps for free!
+dockerimage
+bunkies | 2wrong4you - Clipped with Medal.tv
+[7:16 PM]
+Civ Combat Demonstration: Mixing up #2 and #3
+Thanks zolo17 for the demonstration!
+https://medal.tv/games/minecraft/clips/1jPyKibsed_6Sk/2qEiwzFddmpS?invite=cr-MSx4ZXIsMTc5MTcyOTk5LA (edited)
+Medal - ⭐️ Clip up to 4K 240 fps for free!
+dockerimage
+zolo17 - Clipped with Medal.tv

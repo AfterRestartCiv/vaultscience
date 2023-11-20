@@ -1,0 +1,64 @@
+docker — 11/04/2023 11:03 AM
+Introduction of Vault Science
+
+In Civ the best way to enforce your own ideologies is through pearling, but where do you store those pearls? Pearl locations are public information and can be accessed by anyone through /ep locate and /ep broadcast. This incentivizes using the protection plugins Citadel and Bastion together to create the strongest defense possible to store your pearls, along with other valuable assets such as factories which you cannot just logout with.
+
+Through iterations vaults have changed appearances as new concepts and metas were explored. When you explore worlds from past servers, you may encounter old vaults which showcase these changes very blatantly. Ring science is one of most prominent changes, and revolves around the best way to maximize a vaults breaktime according to the meta at the time. You can see nerd rings, squares, cinci and an infinite variation of bastion layouts that try to minmax the amount of bastion breaks required every few blocks.
+
+This server aims to teach the principles of vault science and empower players to innovate in the Civ genre. Vaults are one of the coolest, niche things that are out there and there's really nothing like it anywhere else. 
+
+Contents: 
+Introduction to Vault Science
+Basic Features of Vault Science
+Different Design Philosophies
+Vault Science Meta - Rings, Traps
+Design downloads
+Advanced features of Vaults
+Successful vaults, defenses, ideal defense
+Other defensive infrastructure
+
+CivClassic 2.0 WDL:  https://archive.org/details/civclassic2-eotw-squareblob (edited)
+Internet Archive
+CivClassic 2 EOTW World Download by Squareblob : Squareblob : Free ...
+CivClassic 2 EOTW World Download taken by Squareblob from the CivLegacy server
+
+November 8, 2023
+
+docker — 11/08/2023 8:11 PM
+Basic Features of Vaults and Defensive Infrastructure
+While designs and principles will vary amongst different nations and schools of thought, most vaults end up sharing similar features even if they are executed in a different way from each other.
+Trench
+A trench is a crucial part of a lot of vaults and other important infrastructure. It can be used on anything, from cities, to large farming complexes, to a obscenely large primary pearl holding vault. These trenches are dug down to bedrock, are at least 5 blocks wide, lined with obsidian, have water at the bottom, and are fully vault bastioned to prevent people from jumping over or bridging over easily. With these mechanics you can safely lock down just about anything, and are an excellent way to kite and serve as the first layer of defenses from attacks.
+Rings
+Rings are obsidian walls that are specially lined up with vault bastions in order to prevent someone from simply walking to the center of the vault. They are usually 6 blocks tall at the minimum, and you can see a wide variety of executions from tall rings to prevent pearling out and rings that use alternative bastion grids to maximize bastion breaks.
+You should put the ring wall 1 block out from a bastion field, so any attacker would have to sneak over the wall to break the bastion which is infinitely more riskier and harder than to just start breaking on top of the ring. This also ensures attackers have to be right at the ring, not allowing them to start breaking the next ring from 4 blocks away.
+Traps
+Traps are an essential part of nearly any defensive structure. They are made of reinforced obsidian and trapdoors and must be a minimum of 2 blocks deep. They are used by knocking enemy players into them, closing the trapdoors on top of their heads and then critting them safely through a foot grinder. Once you knock someone into one and close them in, it is nearly impossible to get out and requires multiple other teammates breaking them out actively. They are overpowered and except in a few situations, they always result in a free kill. You can see them in HcF as well since their plugins create the same unescapable effect as Citadel which locks trapdoors to people not on the groups.
+Snitch Curtain
+Snitch curtain's are a curtain of Noteblock snitches that are placed on all four sides of a structure, from bedrock to world height. They are connected to a Kira discord relay and are intended to alert any defenders of activity around the structure. They require frequent refreshing which is done by getting within the radius of each snitch block. You can just do this easily by putting the curtain just past the trench with water at the bottom, and falling down in a straight line from height limit down to bedrock, landing in the water. You must do this for each column. However, once done right it becomes impossible for anyone to sneak into your defensive infrastructre. Note that your entire structure must be vault bastioned to accomplish this, pearling past snitch curtains into an unbastioned field is a real tactic that can be used, has been used and will be used in the future.
+Sky defenses
+Sky defenses can be seen through a variety of formats. You can see thick horizontal "electric fences" which are strategically placed on all four sides of the vault. You always want to have one directly at world height. These are meant to intercept skybridge attacks and can be used to counter-bridge, simply provide as a physical barrier for attacks or even just be an easy to move around at world height so you can refresh snitches. You may also see "chad towers" which are large towers placed on all sides of a vault that are meant to be used to counter-bridge. They usually have ladders in them to provide a physical way to get up and down.
+ (edited)
+
+[8:16 PM]
+Basic Features of Vaults and Defensive Infrastructure - Video
+This is a outdated video meant for a different server with different configs in Bastions. However it can be useful to get a better understanding of how different Civ plugins can work with each other to create a secure, defendable structure. Note that this video talks about Circle bastion radius, which aren't present in CivMC. CivMC uses Square radius.
+https://www.youtube.com/watch?v=lHt4Uk7eH4Y&t=206s (edited)
+YouTube
+Vanax
+Plugin Overview & Vault Science | CivUniverse Minecraft
+
+
+docker — 11/08/2023 8:33 PM
+Example of Sky Defenses (chad towers, electric fences) - Pavia vault, CivMC
+https://media.discordapp.net/attachments/1170377266463772713/1171985344225349703/image.png?ex=655eab68&is=654c3668&hm=61a24c7cabd0bcdddfd84397849cbd85cf13cfef95bf24fd6499674787c6ba96&=&width=1128&height=904 (edited)
+
+[8:34 PM]
+Example #2 of Sky defenses (chad towers, electric fences, fence gates) - Kallos vault design for CitadelPvP
+https://cdn.discordapp.com/attachments/1170377266463772713/1171986232994177045/image.png?ex=655eac3c&is=654c373c&hm=aaa3ff3b363761fa668b67d55d72fad2f0d1ea7e4bcade76c2a69963b6b8bdfa&
+This vault was designed with a square world border in mind, as a skybridge was likely to come right alongside the worldborder you can see a chad tower also lined up alongside the theoretical border. The electric fences were put close to each other to allow the bottom fence to be used to support a counter bridging effort. (edited)
+
+
+docker — 11/08/2023 8:41 PM
+Example #3 of Sky defenses - Arx Centauri, Kallos, CivClassic
+This is a unique vault that takes sky defenses to the next level. You can see a snitch curtain, chad towers, electric fences and a fully featured sky vault with underside archer positions. It was advanced for its time during CivClassics, but modern innovations have made the vault not be at its full potential, especially the ground portion. However the sky defenses themselves remain very strong even for current standards. (edited)
