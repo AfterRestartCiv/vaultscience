@@ -31,11 +31,12 @@ html {
     height: 100vh;
   }
   .menu_btn {
-    position: relative;
+    position: fixed;
     visibility: visible;
     opacity: 1;
     z-index: 20;
-    float: right;
+    top: 10px;
+    right: 10px;
   }
   .menu_btn a {
     font-size: 2em;
