@@ -8,21 +8,23 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel='stylesheet' href='CSS/main.css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <title>vaultscience</title>
 <body>
     <script>
-    document.querySelector(document).ready(function () {
-  var open_btn = document.querySelector(".menu_btn");
-  var close_btn = document.querySelector(".close_btn");
+    $(document).ready(function () {
+  var open_btn = $(".menu_btn");
+  var close_btn = $(".close_btn");
 
-  var panels = document.querySelector(".panel");
-  var links = document.querySelector(".litem");
-  var lines = document.querySelector(".line");
-  var data_content = document.querySelector(".data__content");
-  var data_sub = document.querySelector(".data__sub");
-  var footer = document.querySelector(".footer");
+  var panels = $(".panel");
+  var links = $(".litem");
+  var lines = $(".line");
+  var data_content = $(".data__content");
+  var data_sub = $(".data__sub");
+  var footer = $(".footer");
 
   var tl = new TimelineLite({ paused: true });
 
@@ -49,6 +51,7 @@
     tl.reverse();
   });
 });
+
 
      </script>
 
