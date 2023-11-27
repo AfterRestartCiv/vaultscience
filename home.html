@@ -8,88 +8,44 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel='stylesheet' href='CSS/main.css'>
+    <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <title>vaultscience</title>
 <body>
-    <script>
-    $(document).ready(function () {
-  var open_btn = $(".menu_btn");
-  var close_btn = $(".close_btn");
-
-  var panels = $(".panel");
-  var links = $(".litem");
-  var lines = $(".line");
-  var data_content = $(".data__content");
-  var data_sub = $(".data__sub");
-  var footer = $(".footer");
-
-  var tl = new TimelineLite({ paused: true });
-
-  tl.to(panels, 0.5, { width: "50%" })
-    .to(
-      open_btn,
-      0.5,
-      { opacity: 0, visibility: "hidden", "z-index": 0 },
-      "-=0.5"
-    )
-    .to(data_content, 0.5, { y: 0, opacity: 1 })
-    .to(data_sub, 0.5, { y: 0, opacity: 1 }, "-=0.25")
-    .staggerTo(links, 0.3, { y: 0 }, 0.05, "-=0.75")
-    .to(lines, 0.5, { opacity: 1 })
-    .to(footer, 0.5, { opacity: 1 }, "-=0.5");
-
-  open_btn.on("click", function (e) {
-    e.preventDefault();
-    tl.play();
-  });
-
-  close_btn.on("click", function (e) {
-    e.preventDefault();
-    tl.reverse();
-  });
-});
-
-
-     </script>
-
 <div class="menu_btn" role="button"><a href="#" title="open menu">menu</a></div>
         
         <nav class="navigation" role="navigation">
             <h2>main navigation</h2>
             <div class="panel panel--left">
                 <ul class="menu">
-                    <li><a href="#" title="drinks"><span class="litem">Drinks</span></a>
+                    <li><a href="web/aboutus.html" title="afterrestart"><span class="litem">After Restart</span></a>
                         <i class="line"></i>
                     </li>
-                    <li><a href="#" title="food"><span class="litem">food</span></a>
+                    <li><a href="web/civmc/civmc.html" title="food"><span class="litem">CivMC</span></a>
                         <ul class="sub-menu">
-                            <li><a href="#" title="Breakfast"><span class="litem">Breakfast</span></a></li>
-                            <li><a href="#" title="Lunch"><span class="litem">Lunch</span></a></li>
-                            <li><a href="#" title="Dinner"><span class="litem">Dinner</span></a></li>
+                            <li><a href="web/civmc/deliberation.html" title="deliberation"><span class="litem">deliberation</span></a></li>
+                            <li><a href="web/civmc/resources.html" title="resources"><span class="litem">resources</span></a></li>
+                            <li><a href="web/civmc/terminology.html" title="terminology"><span class="litem">terminology</span></a></li>
                         </ul>
                         <i class="line"></i>
                     </li>
-                    <li><a href="#" title="coffee"><span class="litem">coffee</span></a>
+                    <li><a href="web/history/history.html" title="history"><span class="litem">history</span></a>
                         <ul class="sub-menu">
-                            <li><a href="#" title="Espresso"><span class="litem">Espresso</span></a></li>
-                            <li><a href="#" title="Macchiato"><span class="litem">Macchiato</span></a></li>
-                            <li><a href="#" title="Macchiato"><span class="litem">Macchiato</span></a></li>
+                            <li><a href="web/history/civclassic.html" title="Espresso"><span class="litem">civclassics</span></a></li>
+                            <li><a href="web/history/civcraft1.0.html" title="Macchiato"><span class="litem">civcraft 1.0</span></a></li>
+                            <li><a href="web/history/civcraft2.0.html" title="Macchiato"><span class="litem">civcraft 2.0</span></a></li>
+                            <li><a href="web/history/civex3.0.html"><span class="litem">civex 3.0</span></a></li>
+                            <li><a href="web/history/civtemp&civcraft3.0.html"><span class="litem">civtemp & civcraft 3.0</span></a></li>
+                            <li><a href="web/history/devoted.html"><span class="litem">devoted</span></a></li>
                         </ul>
-                        <i class="line"></i>
-                    </li>
-                    <li><a href="#" title="events"><span class="litem">events</span></a>
-                        <i class="line"></i>
-                    </li>
-                    <li><a href="#" title="catalog"><span class="litem">catalog</span></a>
                         <i class="line"></i>
                     </li>
                 </ul>
                 <footer class="footer">
-                    <span class="footer__gredits">developed by <a href="#" title="">vn</a></span>
-                    <span class="footer__social"><a href="#" title="facebook">facebook</a> - <a href="#" title="instagram">instagram</a></span>
+                    <span class="footer__social"><a href="#" title="discord">discord</a> - <a href="#" title="youtube">youtube</a></span>
                 </footer>
             </div>
             <div class="panel panel--right">
