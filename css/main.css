@@ -35,6 +35,7 @@ html {
     visibility: visible;
     opacity: 1;
     z-index: 20;
+    left: -20px;
   }
   .menu_btn a {
     font-size: 2em;
