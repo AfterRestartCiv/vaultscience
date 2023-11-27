@@ -1,16 +1,16 @@
-$(document).ready(function (){
+document.ready(function (){
                
-    var open_btn = $('.menu_btn');
-    var close_btn = $('.close_btn');
+    let open_btn = document.getElementByClassName("menu_btn");
+    let close_btn = document.getElementByClassName("close_btn");
     
-    var panels = $('.panel');
-    var links = $('.litem');
-    var lines = $('.line');
-    var data_content = $('.data__content');
-    var data_sub = $('.data__sub');
-    var footer = $('.footer');
+    let panels = document.getElementByClassName("panel");
+    let links = document.getElementByClassName("litem");
+    let lines = document.getElementByClassName("line");
+    let data_content = document.getElementByClassName("data__content");
+    let data_sub = document.getElementByClassName("data__sub");
+    let footer = document.getElementByClassName("footer");
     
-    var tl = new TimelineLite({paused:true});
+    let tl = new TimelineLite({paused:true});
     
     tl.to(panels, 0.5, {width: '50%'})
             .to(open_btn, 0.5, {opacity: 0, visibility: 'hidden', 'z-index':0}, "-=0.5")
@@ -24,12 +24,12 @@ $(document).ready(function (){
     
     
     
-    open_btn.on('click', function (e){
+    open_btn.addEventListener('click', (e) => {
         e.preventDefault();
         tl.play();
     });
     
-    close_btn.on('click', function (e){
+    close_btn.addEventListener('click', (e) => {
         e.preventDefault();
         tl.reverse();
     });
