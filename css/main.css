@@ -129,7 +129,7 @@ html {
   }
   .navigation .menu > li > a > span {
     top: 0;
-    text-transform: capitalize;
+    text-transform: none;
   }
   .navigation .sub-menu > li {
     display: block;
