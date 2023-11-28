@@ -39,7 +39,7 @@ html {
     opacity: 1;
     z-index: 20;
     top: 10px;
-    right: 10px;
+    right: 10pxf;
   }
   .menu_btn a {
     font-size: 2em;
@@ -241,13 +241,13 @@ html {
     width: 100%;
     justify-content: center;
     align-items: center;
-    top: 10px;
-    left: 10px;
   }
   .text {
     font-weight: 100;
-    font-size: 38px;
+    font-size: 2em;
     color: #edebf4;
+    top: 10px;
+    left: 10px;
   }
   .dud {
     color: #edebf4;
