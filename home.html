@@ -11,20 +11,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="../script.js"></script>
-    <script>
-        "use strict";
-        var glowIn = document.querySelectorAll(".glowIn");
-        glowIn.forEach(function (glowIn) {
-        var letters = glowIn.textContent.split("");
-        glowIn.textContent = "";
-        letters.forEach(function (letter, i) {
-        var span = document.createElement("span");
-        span.textContent = letter;
-        span.style.animationDelay = i * 0.08 + "s";
-        glowIn.append(span);
-        });
-        });                                                                            
-    </script>
 </head>
 
 <title>vaultscience</title>
@@ -80,3 +66,18 @@
         
 
 </html>
+
+<script>
+    "use strict";
+    var glowIn = document.querySelectorAll(".glowIn");
+    glowIn.forEach(function (glowIn) {
+    var letters = glowIn.textContent.split("");
+    glowIn.textContent = "";
+    letters.forEach(function (letter, i) {
+    var span = document.createElement("span");
+    span.textContent = letter;
+    span.style.animationDelay = i * 0.08 + "s";
+    glowIn.append(span);
+    });
+    });                                                                            
+</script>
