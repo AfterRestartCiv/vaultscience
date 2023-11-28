@@ -252,11 +252,7 @@ html {
   .dud {
     color: #edebf4;
   }
-  div.menu_btn {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-color: #666;
-    padding: 40px;
-    font-size: 25px;
+  .p{
+    color: #EDEBF4;
+    justify-content: center;
   }
