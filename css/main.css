@@ -240,6 +240,7 @@ html {
     justify-content: center;
     align-items: center;
     display: flex;
+    padding: 20%;
   }
   .text {
     font-weight: 100;
