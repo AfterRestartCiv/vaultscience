@@ -123,7 +123,7 @@ html {
     clear: both;
   }
   .navigation .menu > li > a {
-    color: #fff;
+    color: #edebf4;
     text-decoration: none;
     overflow: hidden;
     transition: color ease-in-out 0.4s;
@@ -147,7 +147,7 @@ html {
     margin: 0;
   }
   .navigation .sub-menu > li > a {
-    color: #828282;
+    color: #151221;
     text-transform: none;
     overflow: hidden;
     transition: color ease-in-out 0.4s;
@@ -175,10 +175,10 @@ html {
   }
   .footer__gredits, .footer__social {
     display: block;
-    color: #828282;
+    color: #09070d;
   }
   .footer__gredits > a, .footer__social > a {
-    color: #828282;
+    color: #09070d;
     margin: 0 5px;
     text-decoration: none;
     transition: color ease-in-out 0.4s;
@@ -197,7 +197,7 @@ html {
     display: inline-block;
     letter-spacing: 3px;
     transition: color ease-in-out 0.4s;
-    color: #fff;
+    color: #edebf4;
   }
   .close_btn a:hover, .close_btn a:focus, .close_btn a:focus-within {
     color: #6A58A7;
@@ -211,7 +211,7 @@ html {
     font-size: 1.625em;
     font-size: 1.625rem;
     line-height: 38px;
-    color: #828282;
+    color: #151221;
     font-style: italic;
     text-align: justify;
     opacity: 0;
@@ -225,8 +225,9 @@ html {
       line-height: 18px;
     }
   }
+  /*this is for the quote author*/
   .data__sub {
-    color: red;
+    color: #EDEBF4;
     float: left;
     margin-top: 2%;
     font-size: 11px;
