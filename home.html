@@ -135,13 +135,13 @@ class TextScramble {
   }
 }
 
-const phrases = ['Neo,', 'sooner or later', 'you\'re going to realize', 'just as I did', 'that there\'s a difference', 'between knowing the path', 'and walking the path'];
+const phrases = ['vaultscience,', 'protect yourself from evildoers', 'from after restart'];
 const el = document.querySelector('.text');
 const fx = new TextScramble(el);
 let counter = 0;
 const next = () => {
   fx.setText(phrases[counter]).then(() => {
-    setTimeout(next, 800);
+    setTimeout(next, 1000);
   });
   counter = (counter + 1) % phrases.length;
 };
