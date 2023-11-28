@@ -59,10 +59,24 @@
                 </div>
             </div>
 
-            <p class="homepage">
+            <p class="glowIn">
                 Protect yourself from evildoers with massive obsidian structures.
             </p>
         </body>
         
 
 </html>
+<script>
+    "use strict";
+    var glowIn = document.querySelectorAll(".glowIn");
+    glowIn.forEach(function (glowIn) {
+    var letters = glowIn.textContent.split("");
+    glowIn.textContent = "";
+    letters.forEach(function (letter, i) {
+    var span = document.createElement("span");
+    span.textContent = letter;
+    span.style.animationDelay = i * 0.08 + "s";
+    glowIn.append(span);
+    });
+    });                                                                            
+    </script>

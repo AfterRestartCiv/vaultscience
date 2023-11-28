@@ -242,3 +242,12 @@ html {
     opacity: 1;
     text-shadow: 0 0 25px #EDEBF4;}
   }
+  .glowIn {
+    color: white;
+  }
+  
+  .glowIn span {
+    animation: glow-in 0.8s both;
+    text-align: center;
+  }
+  
