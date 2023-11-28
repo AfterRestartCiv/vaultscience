@@ -113,7 +113,7 @@ class TextScramble {
         complete++;
         output += to;
       } else if (this.frame >= start) {
-        if (!char || Math.random() < 0.28) {
+        if (!char || Math.random() < 0.42) {
           char = this.randomChar();
           this.queue[i].char = char;
         }
@@ -135,13 +135,13 @@ class TextScramble {
   }
 }
 
-const phrases = ['vaultscience,', 'protect yourself from evildoers', 'from after restart'];
+const phrases = ['vault science', 'protect yourself from evildoers', 'from after restart'];
 const el = document.querySelector('.text');
 const fx = new TextScramble(el);
 let counter = 0;
 const next = () => {
   fx.setText(phrases[counter]).then(() => {
-    setTimeout(next, 1000);
+    setTimeout(next, 800);
   });
   counter = (counter + 1) % phrases.length;
 };
