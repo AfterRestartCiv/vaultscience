@@ -235,3 +235,8 @@ html {
     transform: translate(0, 50px);
   }
   
+  .homepage {
+    color: #EDEBF4;
+    font-size: 70px;
+    text-align: center;
+  }
