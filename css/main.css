@@ -239,8 +239,7 @@ html {
     width: 100%;
     justify-content: center;
     align-items: center;
-    display: flex;
-    padding: 20%;
+    padding: 20px;
   }
   .text {
     font-weight: 100;
