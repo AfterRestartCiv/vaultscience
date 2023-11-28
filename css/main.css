@@ -226,7 +226,7 @@ html {
     }
   }
   .data__sub {
-    color: #fff;
+    color: red;
     float: left;
     margin-top: 2%;
     font-size: 11px;
