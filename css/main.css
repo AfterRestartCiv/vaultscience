@@ -67,14 +67,14 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #292b2f;
+    background-color: #151221;
     right: 50%;
   }
   .panel--right {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #2f3135;
+    background-color: #09070d;
     right: 0;
   }
   .line {
