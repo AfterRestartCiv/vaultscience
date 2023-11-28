@@ -147,7 +147,7 @@ html {
     margin: 0;
   }
   .navigation .sub-menu > li > a {
-    color: #151221;
+    color: #edebf4;
     text-transform: none;
     overflow: hidden;
     transition: color ease-in-out 0.4s;
