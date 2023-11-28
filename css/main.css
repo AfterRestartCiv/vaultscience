@@ -27,7 +27,7 @@ html {
     word-spacing: normal;
     line-height: 1.4;
     vertical-align: baseline;
-    background-color: #292a2e;
+    background-color: #09070D;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,10 +47,10 @@ html {
     display: inline-block;
     letter-spacing: 3px;
     transition: color ease-in-out 0.4s;
-    color: #fff;
+    color: #EDEBF4;
   }
   .menu_btn a:hover, .menu_btn a:focus, .menu_btn a:focus-within {
-    color: #e2001a;
+    color: #6A58A7;
   }
   nav {
     display: block;
@@ -129,7 +129,7 @@ html {
     transition: color ease-in-out 0.4s;
   }
   .navigation .menu > li > a:hover, .navigation .menu > li > a:focus, .navigation .menu > li > a:focus-within {
-    color: #e2001a;
+    color: #6A58A7;
   }
   .navigation .menu > li > a > span {
     top: 0;
@@ -153,7 +153,7 @@ html {
     transition: color ease-in-out 0.4s;
   }
   .navigation .sub-menu > li > a:hover, .navigation .sub-menu > li > a:focus, .navigation .sub-menu > li > a:focus-within {
-    color: #e2001a;
+    color: #6A58A7;
   }
   .litem {
     transform: translate(0, -100%);
@@ -184,7 +184,7 @@ html {
     transition: color ease-in-out 0.4s;
   }
   .footer__gredits > a:hover, .footer__social > a:hover, .footer__gredits > a:focus, .footer__social > a:focus, .footer__gredits > a:focus-within, .footer__social > a:focus-within {
-    color: #e2001a;
+    color: #6A58A7;
   }
   .close_btn {
     position: absolute;
@@ -200,7 +200,7 @@ html {
     color: #fff;
   }
   .close_btn a:hover, .close_btn a:focus, .close_btn a:focus-within {
-    color: #e2001a;
+    color: #6A58A7;
   }
   .data {
     padding: 0 20%;
