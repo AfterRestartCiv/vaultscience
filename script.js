@@ -1,6 +1,7 @@
 $(document).ready(function () {
     var open_btn = $(".menu_btn");
     var close_btn = $(".close_btn");
+    var title = $(".title")
   
     var panels = $(".panel");
     var links = $(".litem");
@@ -16,6 +17,12 @@ $(document).ready(function () {
         open_btn,
         0.5,
         { opacity: 0, visibility: "hidden", "z-index": 0 },
+        "-=0.5"
+      )
+      .to(
+        title,
+        0.5,
+        { opacity: 0, visibility: "hidden", "z-index":0 },
         "-=0.5"
       )
       .to(data_content, 0.5, { y: 0, opacity: 1 })
