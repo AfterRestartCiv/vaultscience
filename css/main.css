@@ -246,6 +246,7 @@ html {
     z-index: 999;
     width: 100%;
     height: 23px;
+    transition: color ease-in-out 0.4s;
   }
   .text {
     font-weight: 100;
