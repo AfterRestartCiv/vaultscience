@@ -23,15 +23,10 @@ html {
     font-style: normal;
     text-transform: none;
     text-align: left;
-    letter-spacing: normal;
-    word-spacing: normal;
     line-height: 1.4;
     vertical-align: baseline;
     background-color: #09070D;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
   }
   .menu_btn {
     visibility: visible;
@@ -54,9 +49,6 @@ html {
   }
   .menu_btn a:hover, .menu_btn a:focus, .menu_btn a:focus-within {
     color: #6A58A7;
-  }
-  nav {
-    display: block;
   }
   .panel {
     position: absolute;
@@ -220,14 +212,6 @@ html {
     opacity: 0;
     transform: translate(0, 50px);
   }
-  @media (max-width: 680px) {
-    .data__content {
-      font-size: 16px;
-      font-size: 1em;
-      font-size: 1rem;
-      line-height: 18px;
-    }
-  }
   /*this is for the quote author*/
   .data__sub {
     color: #EDEBF4;
@@ -258,7 +242,15 @@ html {
   .dud {
     color: #edebf4;
   }
-  .p{
-    color: #EDEBF4;
-    justify-content: center;
+  .headers {
+    transform: translate(0, -100%);
+    font-style: italic;
+  }
+  @media (max-width: 680px) {
+    .data__content {
+      font-size: 16px;
+      font-size: 1em;
+      font-size: 1rem;
+      line-height: 18px;
+    }
   }
