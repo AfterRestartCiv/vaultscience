@@ -2,63 +2,199 @@
 
 <html>
 
-<head>
-    <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
-    <link rel="manifest" href="../site.manifest">
-    <link rel='stylesheet' href='../CSS/main.css'>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="../script.js"></script>
-</head>
+    <head>
 
-<title>vaultscience</title>
-<body>
-<div class="menu_btn" role="button"><a href="#" title="open menu">menu</a></div>
-        
-        <nav class="navigation" role="navigation">
-            <h2>main navigation</h2>
-            <div class="panel panel--left">
-                <ul class="menu">
-                    <li><a href="/home.html" title="home"><span class="litem">After Restart</span></a>
-                        <ul class="sub-menu">
-                            <li><a href=/aboutus.html title="about us">about us</a></li>
-                        </ul>
-                        <i class="line"></i>
-                    </li>
-                    <li><a href="/civmc.html" title="food"><span class="litem">civmc</span></a>
-                        <ul class="sub-menu">
-                            <li><a href="/deliberation.html" title="deliberation"><span class="litem">deliberation</span></a></li>
-                            <li><a href="/resources.html" title="resources"><span class="litem">resources</span></a></li>
-                            <li><a href="/terminology.html" title="terminology"><span class="litem">terminology</span></a></li>
-                        </ul>
-                        <i class="line"></i>
-                    </li>
-                    <li><a href="/history.html" title="history"><span class="litem">history</span></a>
-                        <ul class="sub-menu">
-                            <li><a href="/civclassic.html" title="Espresso"><span class="litem">civclassics</span></a></li>
-                            <li><a href="/civcraft1.0.html" title="Macchiato"><span class="litem">civcraft 1.0</span></a></li>
-                            <li><a href="/civcraft2.0.html" title="Macchiato"><span class="litem">civcraft 2.0</span></a></li>
-                            <li><a href="/civex3.0.html"><span class="litem">civex 3.0</span></a></li>
-                            <li><a href="/civtemp&civcraft3.0.html"><span class="litem">civtemp & civcraft 3.0</span></a></li>
-                            <li><a href="/devoted.html"><span class="litem">devoted</span></a></li>
-                        </ul>
-                        <i class="line"></i>
-                    </li>
-                </ul>
-                <footer class="footer">
-                    <span class="footer__social"><a href="https://github.com/AfterRestartCiv" title="github">github</a> - <a href="#" title="youtube">youtube</a></span>
-                </footer>
-            </div>
-            <div class="panel panel--right">
-                <div class="close_btn"><a href="#">close</a></div>
-                <div class="data">
-                    <div class="data__content">quote here</div>
-                    <div class="data__sub">"author here"</div>
-                </div>
-            </div>
-        </body>
-        
+        <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+        <link rel="manifest" href="../site.manifest">
+        <link rel='stylesheet' href='../CSS/main.css'>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.1/TweenMax.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="../script.js"></script>
 
+    </head>
+
+    <title>vaultscience</title>
+
+    <body>
+
+<!--this is for the cool text scramble stuff-->
+
+        <div class="title">
+
+            <div class="text"></div>
+
+        </div>
+
+<!--open menu button-->
+
+        <div class="menu_btn" role="button">
+
+            <a href="#" title="open menu">menu</a>
+
+        </div>
+
+<!--actual nav menu stuff but for the left half-->
+        
+    <nav class="navigation" role="navigation">
+
+        <h2>main navigation</h2>
+
+        <div class="panel panel--left">
+
+            <ul class="menu">
+
+                <li><a href="/home.html"><span class="headers">After Restart</span></a>
+
+            <ul class="sub-menu">
+
+                <li><a href=/aboutus.html class="litem">about us</a>
+
+            </ul>
+
+                <i class="line"></i>
+
+            </li>
+
+        <li><a href="/civmc.html"><span class="headers">civmc</span></a>
+
+            <ul class="sub-menu">
+
+                <li><a href="/deliberation.html"><span class="litem">deliberation</span></a></li>
+                <li><a href="/resources.html"><span class="litem">resources</span></a></li>
+                <li><a href="/terminology.html"><span class="litem">terminology</span></a></li>
+
+            </ul>
+
+                <i class="line"></i>
+
+        </li>
+
+        <li><a href="/history.html" title="history"><span class="headers">history</span></a>
+
+            <ul class="sub-menu">
+
+                <li><a href="/civclassic.html"><span class="litem">civclassics</span></a></li>
+                <li><a href="/civcraft1.0.html"><span class="litem">civcraft 1.0</span></a></li>
+                <li><a href="/civcraft2.0.html"><span class="litem">civcraft 2.0</span></a></li>
+                <li><a href="/civex3.0.html"><span class="litem">civex 3.0</span></a></li>
+                <li><a href="/civtemp&civcraft3.0.html"><span class="litem">civtemp & civcraft 3.0</span></a></li>
+                <li><a href="/devoted.html"><span class="litem">devoted</span></a></li>
+
+            </ul>
+
+                <i class="line"></i>
+
+        </li>
+
+            </ul>
+
+<!--social links-->
+
+            <footer class="footer">
+
+                <span class="footer__social"><a href="https://github.com/AfterRestartCiv" title="github">github</a> - <a href="#" title="youtube">youtube</a>
+                </span>
+
+            </footer>
+
+        </div>
+
+<!--right panel stuff-->
+
+        <div class="panel panel--right">
+        <div class="close_btn"><a href="#">close</a></div>
+        <div class="data">
+        <div class="data__content">quote here</div>
+        <div class="data__sub">"author here"</div>
+
+        </div>
+
+    </nav>
+        
+    </body>
+
+        
 </html>
+
+<!--le scramble js-->
+
+<script>
+class TextScramble {
+  constructor(el) {
+    this.el = el;
+    this.chars = '!<>-_\\/[]{}—=+*^?#________';
+    this.update = this.update.bind(this);
+  }
+  setText(newText) {
+    const oldText = this.el.innerText;
+    const length = Math.max(oldText.length, newText.length);
+    const promise = new Promise(resolve => this.resolve = resolve);
+    this.queue = [];
+    for (let i = 0; i < length; i++) {
+      const from = oldText[i] || '';
+      const to = newText[i] || '';
+      const start = Math.floor(Math.random() * 40);
+      const end = start + Math.floor(Math.random() * 40);
+      this.queue.push({
+        from,
+        to,
+        start,
+        end
+      });
+    }
+    cancelAnimationFrame(this.frameRequest);
+    this.frame = 0;
+    this.update();
+    return promise;
+  }
+  update() {
+    let output = '';
+    let complete = 0;
+    for (let i = 0, n = this.queue.length; i < n; i++) {
+      let {
+        from,
+        to,
+        start,
+        end,
+        char
+      } = this.queue[i];
+      if (this.frame >= end) {
+        complete++;
+        output += to;
+      } else if (this.frame >= start) {
+        if (!char || Math.random() < 0.42) {
+          char = this.randomChar();
+          this.queue[i].char = char;
+        }
+        output += `<span class="dud">${char}</span>`;
+      } else {
+        output += from;
+      }
+    }
+    this.el.innerHTML = output;
+    if (complete === this.queue.length) {
+      this.resolve();
+    } else {
+      this.frameRequest = requestAnimationFrame(this.update);
+      this.frame++;
+    }
+  }
+  randomChar() {
+    return this.chars[Math.floor(Math.random() * this.chars.length)];
+  }
+}
+
+const phrases = ['vault science', 'protect yourself from evildoers', 'with massive obsidian structures'];
+const el = document.querySelector('.text');
+const fx = new TextScramble(el);
+let counter = 0;
+const next = () => {
+  fx.setText(phrases[counter]).then(() => {
+    setTimeout(next, 800);
+  });
+  counter = (counter + 1) % phrases.length;
+};
+next();
+</script>

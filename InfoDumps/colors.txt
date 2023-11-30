@@ -1,0 +1,5 @@
+text - #EDEBF4
+background - #09070D
+primary - #8273B5
+secondary - #151221
+accent - #6A58A7
